@@ -8,15 +8,13 @@
   }
   
   .btn-group {
-    margin-top: 15px;
+    margin-top: 50px;
   }
   
   #taxLiability {
-    margin-top: 15px;
+    margin-top: 50px;
   }
-/* .Taxcontainer{
-    margin: "40px"
-} */
+ 
 .container-sm{
     margin: 20px;
     
@@ -46,15 +44,7 @@
     
       }
       .btn-primary{
-        /* font-size: 18px;
-        padding: 5px 15px;
-        margin-top: 10px;
-        border-radius: 3px;
-        border: 1px solid #e74c3c;
-        color: #e74c3c;
-        background-color: black;
-        border-color: #e74c3c;
-        display: block; */
+       
     
         background-color: blue;
       color: white;
@@ -63,15 +53,23 @@
       border: none;
       border-radius: 5px;
       cursor: pointer;
+      margin-top: 20px; 
+      height:50px
       }
-      .btn btn-secondary{
-        margin-right: 2px;
-        color: #e74c3c;
-        background-color: #e74c3c;
-        border-color: #e74c3c;
-        border-radius: 3px;
-        border: 1px solid #e74c3c;
+      .btn-secondary{
+        margin-right: 12px;
+        height: 50px;
+        margin-top: 20px; 
+        
+         
     
+      }
+      .btn-group{
+        margin-right: 2px;
+        height: 50px;
+        margin-top: 20px; 
+        margin: auto;
+
       }
       h2{
         font-size: 20px;
@@ -83,3 +81,5 @@
         border: 1px solid black;
     
       }  
+
+       
