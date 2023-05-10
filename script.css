@@ -1,28 +1,85 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-  }
-  
-  h1 {
+.container {
     text-align: center;
+    margin-top: 50px;
   }
   
-  form {
-    margin-top: 20px;
+  .form-control {
+    margin-bottom: 15px;
   }
   
-  label {
-    display: block;
-    margin-bottom: 5px;
+  .btn-group {
+    margin-top: 15px;
   }
   
-  input[type="number"] {
-    width: 200px;
-    padding: 5px;
+  #taxLiability {
+    margin-top: 15px;
   }
-  
-  button {
-    margin-top: 10px;
-    padding: 10px 20px;
-  }
-  
+/* .Taxcontainer{
+    margin: "40px"
+} */
+.container-sm{
+    margin: 20px;
+    
+    } 
+    
+    .container {
+        border: 1px solid black; /* Add border */
+        padding: 20px; /* Add some padding to the container */
+        background-color: #f2f2f3; /* Change background color */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 170px;
+        margin-bottom: 30px;
+        border-radius: 40px;
+        padding: 5px;
+    
+      }
+      h1{
+        font-size: 35px;
+        font-weight: 600;
+        color: black;
+        /* margin-bottom: 15px; */
+        margin-bottom: 15px;
+        margin-top: 20px;
+        
+    
+      }
+      .btn-primary{
+        /* font-size: 18px;
+        padding: 5px 15px;
+        margin-top: 10px;
+        border-radius: 3px;
+        border: 1px solid #e74c3c;
+        color: #e74c3c;
+        background-color: black;
+        border-color: #e74c3c;
+        display: block; */
+    
+        background-color: blue;
+      color: white;
+      font-size: 16px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      }
+      .btn btn-secondary{
+        margin-right: 2px;
+        color: #e74c3c;
+        background-color: #e74c3c;
+        border-color: #e74c3c;
+        border-radius: 3px;
+        border: 1px solid #e74c3c;
+    
+      }
+      h2{
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-radius: 3px;
+        border: 1px solid black;
+    
+      }  
